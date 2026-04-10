@@ -233,6 +233,62 @@ ul li::before {
   background: linear-gradient(180deg, #ff9e36, #2e1800);
 }
 
+.card3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  border-radius: 16px;
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #2478c8, #2e1800);
+}
+
+.card4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  border-radius: 16px;
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #5a30a0, #2e1800);
+}
+
+.card5 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  border-radius: 16px;
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #b82020, #2e1800);
+}
+
+.card6 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  border-radius: 16px;
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #0a8860, #2e1800);
+}
+
 .card-badge {
   position: absolute;
   top: 10px;
@@ -274,7 +330,10 @@ ul li::before {
 .nc-image-1,
 .nc-image-2,
 .vbs-image-2,
-.vbs-image-3 {
+.vbs-image-3,
+.sm-image-1,
+.sm-image-2,
+.sm-image-3 {
   width: 100%;
   height: 100%;
   object-fit: COVER;
