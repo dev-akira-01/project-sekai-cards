@@ -393,3 +393,102 @@ ul li::before {
   background: rgba(255, 255, 255, 0.12);
   color: #f0eeff;
 }
+
+.card,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  transition: transform 0.6s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 0px 10px rgba(248, 194, 255, 0.4);
+}
+
+.card2:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 0px 10px rgba(255, 228, 138, 0.4);
+}
+
+.card3:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.4);
+}
+
+.card4:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 0px 10px rgba(162, 0, 255, 0.4);
+}
+
+.card5:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.4);
+}
+
+.card6:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 0px 10px rgba(0, 255, 149, 0.4);
+}
+
+.tag1 {
+  transition: 0.3s ease-in;
+}
+
+.tag1:hover {
+  transform: scale(1.1);
+  color: #ff9cf2;
+  cursor: pointer;
+}
+
+.tag2 {
+  transition: 0.3s ease-in;
+}
+
+.tag2:hover {
+  transform: scale(1.1);
+  color: #ffd664;
+  cursor: pointer;
+}
+
+.tag3 {
+  transition: 0.3s ease-in;
+}
+
+.tag3:hover {
+  transform: scale(1.1);
+  color: #8fe9ff;
+  cursor: pointer;
+}
+
+.tag4 {
+  transition: 0.3s ease-in;
+}
+
+.tag4:hover {
+  transform: scale(1.1);
+  color: #e064ff;
+  cursor: pointer;
+}
+
+.tag5 {
+  transition: 0.3s ease-in;
+}
+
+.tag5:hover {
+  transform: scale(1.1);
+  color: #ff6464;
+  cursor: pointer;
+}
+
+.tag6 {
+  transition: 0.3s ease-in;
+}
+
+.tag6:hover {
+  transform: scale(1.1);
+  color: #64ff9f;
+  cursor: pointer;
+}
