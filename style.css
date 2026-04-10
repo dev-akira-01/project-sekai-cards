@@ -1,14 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.main-container {
+body {
+  font-family: "Roboto";
   width: 100vw;
   height: 100vh;
   background-color: #0e0d0d;
+}
+
+h1 {
+  font-family: "Orbitron";
+}
+.main-container {
   color: #e2dfdf;
+  padding: 20px;
+  margin: 20px;
 }
 
 .header h1,
@@ -31,4 +43,18 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.cards {
+  min-width: 75px;
+  min-height: 250px;
+  border: 1px solid #fff;
+}
+
+.title {
+  font-family: "Open sans";
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
