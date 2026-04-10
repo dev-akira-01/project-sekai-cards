@@ -11,15 +11,16 @@ body {
   font-family: "Roboto";
   width: 100vw;
   height: 100vh;
-  background-color: #0e0d0d;
+  background-color: #0e0e14;
 }
 
 h1 {
   font-family: "Orbitron";
+  font-size: 24px;
 }
 
 .main-container {
-  color: #e2dfdf;
+  color: #f0eeff;
   padding: 20px;
   margin: 20px;
 }
@@ -31,14 +32,34 @@ h1 {
   align-items: center;
 }
 
-.navbar {
+.header {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 
-.navbar li {
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.navbar ul {
   list-style: none;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+ul li {
+  min-width: 50px;
+  border: 1px solid #fff;
+  margin: 7px;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 .grid {
@@ -78,3 +99,125 @@ h1 {
   margin-bottom: 8px;
   margin-left: 8px;
 }
+
+.li-w {
+  color: #ffaad4;
+  background-color: #3a1030;
+  border: 1px solid #ffaad4;
+}
+
+.li-w::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  /* background-color: #ffaad4; */
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M100 10 C110 60 140 90 190 100 C140 110 110 140 100 190 C90 140 60 110 10 100 C60 90 90 60 100 10Z' fill='black'/></svg>");
+  position: relative;
+  bottom: 2px;
+  top: 2px;
+  right: 3px;
+  filter: invert(1);
+}
+
+.li-ln {
+  color: #ffcc80;
+  background-color: #2e1e00;
+  border: 1px solid #ffcc80;
+}
+
+.li-ln::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  /* background-color: #ffaad4; */
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M100 10 C110 60 140 90 190 100 C140 110 110 140 100 190 C90 140 60 110 10 100 C60 90 90 60 100 10Z' fill='black'/></svg>");
+  position: relative;
+  bottom: 2px;
+  top: 2px;
+  right: 3px;
+  filter: invert(1);
+}
+
+.li-mmj {
+  color: #80c8ff;
+  border: 1px solid #80c8ff;
+  background-color: #0a2040;
+}
+
+.li-mmj::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  /* background-color: #ffaad4; */
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M100 10 C110 60 140 90 190 100 C140 110 110 140 100 190 C90 140 60 110 10 100 C60 90 90 60 100 10Z' fill='black'/></svg>");
+  position: relative;
+  bottom: 2px;
+  top: 2px;
+  right: 3px;
+  filter: invert(1);
+}
+
+.li-nc {
+  color: #cc99ff;
+  background-color: #1e0a38;
+  border: 1px solid #cc99ff;
+}
+
+.li-nc::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  /* background-color: #ffaad4; */
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M100 10 C110 60 140 90 190 100 C140 110 110 140 100 190 C90 140 60 110 10 100 C60 90 90 60 100 10Z' fill='black'/></svg>");
+  position: relative;
+  bottom: 2px;
+  top: 2px;
+  right: 3px;
+  filter: invert(1);
+}
+
+.li-vbs {
+  color: #ff9999;
+  background-color: #2e0808;
+  border: 1px solid #ff9999;
+}
+
+.li-vbs::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  /* background-color: #ffaad4; */
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M100 10 C110 60 140 90 190 100 C140 110 110 140 100 190 C90 140 60 110 10 100 C60 90 90 60 100 10Z' fill='black'/></svg>");
+  position: relative;
+  bottom: 2px;
+  top: 2px;
+  right: 3px;
+  filter: invert(1);
+}
+
+.li-sm {
+  color: #70d8a8;
+  background-color: #042e1e;
+  border: 1px solid #70d8a8;
+}
+
+.li-sm::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  /* background-color: #ffaad4; */
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><path d='M100 10 C110 60 140 90 190 100 C140 110 110 140 100 190 C90 140 60 110 10 100 C60 90 90 60 100 10Z' fill='black'/></svg>");
+  position: relative;
+  bottom: 2px;
+  top: 2px;
+  right: 3px;
+  filter: invert(1);
+}
+
+
