@@ -17,6 +17,7 @@ body {
 h1 {
   font-family: "Orbitron";
 }
+
 .main-container {
   color: #e2dfdf;
   padding: 20px;
@@ -57,4 +58,23 @@ h1 {
   font-size: 13px;
   margin-top: 20px;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  /* content-visibility: hidden; */
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.5) 40%,
+    rgba(14, 13, 13, 0) 100%
+  );
+  height: 1px;
+  width: 100vw;
+  position: absolute;
+  top: 120;
+  bottom: 0px;
+  margin-bottom: 8px;
+  margin-left: 8px;
 }
