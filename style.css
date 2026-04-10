@@ -205,7 +205,6 @@ ul li::before {
   margin-bottom: 1rem;
 }
 
-
 .card {
   width: 100%;
   height: 100%;
@@ -218,6 +217,20 @@ ul li::before {
   overflow: hidden;
   position: relative;
   background: linear-gradient(180deg, #ff9ab5, #6b2a44);
+}
+
+.card2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  border-radius: 16px;
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, #ff9e36, #2e1800);
 }
 
 .card-badge {
@@ -244,9 +257,26 @@ ul li::before {
   z-index: 0;
 }
 
-.card-media img,
-.card-media1 img,
-.card-image {
+.ws-image-1,
+.ws-image-2,
+.ws-image-3 {
+  width: 100%;
+  height: 100%;
+  object-fit: COVER;
+  display: block;
+}
+
+.ln-image-1,
+.ln-image-2,
+.ln-image-3 {
+  width: 100%;
+  height: 100%;
+  object-fit: COVER;
+  display: block;
+}
+
+.mmj-image-1,
+.mmj-image-2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
