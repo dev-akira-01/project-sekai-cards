@@ -268,19 +268,27 @@ ul li::before {
 
 .ln-image-1,
 .ln-image-2,
-.ln-image-3 {
+.ln-image-3,
+.mmj-image-1,
+.mmj-image-2,
+.nc-image-1,
+.nc-image-2,
+.vbs-image-2,
+.vbs-image-3 {
   width: 100%;
   height: 100%;
   object-fit: COVER;
   display: block;
 }
 
-.mmj-image-1,
-.mmj-image-2 {
+.vbs-image-1 {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  scale: 2;
   display: block;
+  position: absolute;
+  left: 30px;
 }
 
 .card-body {
